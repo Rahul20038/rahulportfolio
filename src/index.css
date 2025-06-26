@@ -4,7 +4,7 @@
 
 @layer utilities {
   .animate-float {
-    animation: float 20s ease-in-out infinite;
+    animation: float 5s ease-in-out infinite;
   }
   
   @keyframes float {
