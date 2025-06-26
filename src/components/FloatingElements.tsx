@@ -17,7 +17,7 @@ const FloatingElements = () => {
       {techIcons.map(({ Icon, delay, duration }, index) => (
         <div
           key={index}
-          className="absolute opacity-20 animate-float"
+          className="absolute opacity-5 animate-float"
           style={{
             left: `${10 + (index * 15)}%`,
             top: `${20 + (index * 10)}%`,
